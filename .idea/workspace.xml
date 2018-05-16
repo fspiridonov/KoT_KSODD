@@ -10,219 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4df23628-aa4c-4340-aee3-a6fa91811095" name="Default" comment="[+] обратный драг енд дроп, изменился метод ввода данных, добавлены сценарии выбора типа, добавлено глобальное хранилище">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_selenide_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_5_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_barcodes_7_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_font_asian_7_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_forms_7_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_hyph_7_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_io_7_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_kernel_7_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_layout_7_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_pdfa_7_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_sign_7_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dnsjava_dnsjava_2_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_lightbody_bmp_browsermob_core_2_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_lightbody_bmp_littleproxy_1_1_0_beta_bmp_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_lightbody_bmp_mitm_2_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_1_2_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_58.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_58.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rauschig_jarchivelib_0_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tinylog_tinylog_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KoT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/report/Отчет №1522148901065.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/report/Отчет №1522149372745.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/MVK.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#7.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#Initiative_type_Importance.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#Initiative_type_MVK.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#Initiative_type_normal.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#Request_type_PODD_MVK.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#Request_type_actual_initCODD.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#Request_type_new_project.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#redactor.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#street_filter.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/downDragAndDrop.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#0.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#1.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#2.1.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#2.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#3.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#3_error.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#4.1.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#4.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#5.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#6.1.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#6.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/smoke#00_cleanDB.fuature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/smoketest#0_cleaning.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/smoketest#1_initiative.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/smoketest#2_request.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/smoketest#3_package.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/smoketest#4_test.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/ButtonsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/FillUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/LoggerConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/StorageString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/TestHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/dbConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/AutorizationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/InitiativePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/PackagePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/RequestPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/StreetFiltrePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/BackMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Scenario_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Scenario_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Scenario_2_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Scenario_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Scenario_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Scenario_4_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Scenario_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Scenario_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Scenario_6_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/type_tests/Initiative_MVK/Initiative_MVK_req_PODD_MVK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/type_tests/Initiative_MVK/Initiative_MVK_req_actual_init_CODD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/type_tests/Initiative_MVK/Initiative_MVK_req_new_project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/type_tests/Initiative_importance/Initiative_importance_req_PODD_MVK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/type_tests/Initiative_importance/Initiative_importance_req_actual_initCODD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/type_tests/Initiative_importance/Initiative_importance_req_new_project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/type_tests/Initiative_normal/Initiative_normal_req_PODD_MVK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/type_tests/Initiative_normal/Initiative_normal_req_actual_initCODD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/type_tests/Initiative_normal/Initiative_normal_req_new_project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/Cleaning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestAutorizationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestFiltersStreet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestInitiativePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestPackagePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestProjectMVKPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestRequestPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestTestPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/downDnD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/Files/1111.dgn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/Files/11110.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/Files/Initiative.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/Files/Initiative_Edit.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/Files/dgn.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/Files/Основание.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/Files/ТЗ.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/NOTICE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/bin/m2.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/bin/mvn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/bin/mvn.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/bin/mvnDebug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/bin/mvnDebug.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/bin/mvnyjp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/conf/logging/simplelogger.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/conf/settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/conf/toolchains.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/cdi-api.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/commons-cli.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/commons-io.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/commons-lang3.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/ext/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/jansi-native/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/jansi-native/freebsd32/libjansi.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/jansi-native/freebsd64/libjansi.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/jansi-native/linux32/libjansi.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/jansi-native/linux64/libjansi.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/jansi-native/osx/libjansi.jnilib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/jansi-native/windows32/jansi.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/jansi-native/windows64/jansi.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/jcl-over-slf4j.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/jsr250-api.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-artifact.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-builder-support.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-compat.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-core.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-embedder.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-model-builder.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-model.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-plugin-api.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-repository-metadata.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-resolver-api.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-resolver-connector-basic.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-resolver-impl.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-resolver-provider.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-resolver-spi.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-resolver-transport-wagon.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-resolver-util.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-settings-builder.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-settings.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-shared-utils.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/maven-slf4j-provider.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/org.eclipse.sisu.inject.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/org.eclipse.sisu.plexus.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/plexus-cipher.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/plexus-component-annotations.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/plexus-interpolation.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/plexus-sec-dispatcher.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/plexus-utils.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/slf4j-api.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/wagon-file.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/wagon-http.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/lib/wagon-provider-api.license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/repository/webDriver/chromedriver.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/cucmber-report/cucumber-html-reports/css/bootstrap.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/cucmber-report/cucumber-html-reports/css/cucumber.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/cucmber-report/cucumber-html-reports/css/font-awesome.min.css" afterDir="false" />
@@ -498,7 +288,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="377" />
     <option name="y" value="-19" />
     <option name="width" value="1392" />
@@ -1422,7 +1212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520835199448</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="[+] загрузка проекта">
+      <created>1526457573233</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1526457573233</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1467,7 +1264,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.2673913" />
@@ -1559,7 +1357,8 @@
     <MESSAGE value="[+] Повторный залив" />
     <MESSAGE value="[+] Переименования и добавили сценарии" />
     <MESSAGE value="[+] обратный драг енд дроп, изменился метод ввода данных, добавлены сценарии выбора типа, добавлено глобальное хранилище" />
-    <option name="LAST_COMMIT_MESSAGE" value="[+] обратный драг енд дроп, изменился метод ввода данных, добавлены сценарии выбора типа, добавлено глобальное хранилище" />
+    <MESSAGE value="[+] загрузка проекта" />
+    <option name="LAST_COMMIT_MESSAGE" value="[+] загрузка проекта" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
