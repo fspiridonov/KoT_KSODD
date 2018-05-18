@@ -748,7 +748,7 @@ public static void mvkProjectdaterealise () throws IOException {
 //======================================загрузить файлы Проекты МВК=====================================================================
 
     public static void LoadFiles() {
-    String[] files = {"1111.dgn", "11110.pdf", "ТЗ.txt", "ТЗ.txt"}; //Типы статусов инициатив
+    String[] files = {"1111.dgn", "11110.pdf", "ТЗ.txt", "ТЗ.txt", "1111.dgn", "11110.pdf", "ТЗ.txt", "ТЗ.txt", "11110.pdf"}; //Типы статусов инициатив
     ElementsCollection collect = $$(By.xpath("//input[@type='file']"));
     for (int i = 0; i < collect.size(); i++) {
         collect.get(i).uploadFile(new File("src\\test\\repository\\Files\\" + files[i]));

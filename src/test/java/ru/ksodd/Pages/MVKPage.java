@@ -7,21 +7,15 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import ru.ksodd.Helpers.LoggerConsole;
 import ru.ksodd.Helpers.TestHelper;
-import sun.awt.windows.WEmbeddedFrame;
 
 import java.io.IOException;
-import java.security.Key;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 import static com.codeborne.selenide.Selenide.*;
-import static ru.ksodd.Helpers.LoggerConsole.Logg;
-import static ru.ksodd.Helpers.LoggerConsole.LoggNotError;
 
 
-public class StreetFiltrePage {
+public class MVKPage {
 
     public static String[] nameFileLoad = {"Проект DGN", "Натурные обследования", "Проект PDF", "Проект DGN", "Первичный проект", "Согласовательная документация", "График проведения работ",
             "Проект DGN", "Изменения PDF", "Выписка протокола МВК", "Акт проведения авторского надзора"};
@@ -43,10 +37,8 @@ public class StreetFiltrePage {
 
     public static void inputField(String name) throws IOException {  //вводит данные в поле
         sleep(1500);
-        WebElement street = $(By.xpath("//div[2]/div/div/div/div/button/input[@class='b-combobox__input b-input form-control checkInput i-bem b-combobox__input_js_inited']"));
-        WebElement strlist = $(By.xpath("//li[text()='" + name + "']"));
         try {
-            actions().click(street).sendKeys("" + name + "").click(strlist).perform();
+            actions().sendKeys("" + name + "").sendKeys(Keys.ENTER).perform();
             LoggerConsole.LoggNotError("Ввод в поле");
         } catch (AssertionError err) {
             LoggerConsole.Logg("Не произошел ввод в поле");
@@ -116,7 +108,7 @@ public class StreetFiltrePage {
             String ch = aCollection.getText();
             nameFile1.add(ch);
         }
-        //Цикл, который проверяет наименование из массива nameFileLoad в nameFile1
+        //Цикл, который проверяет наименовании из массива nameFileLoad в nameFile1
         for (int i = 0; i < nameFile1.size(); i++) {
             yyy = nameFile1.toArray(new String[i]);
             if (yyy[i].equals(nameFileLoad[i])) {
@@ -128,8 +120,6 @@ public class StreetFiltrePage {
 
     public static void clickAndInput(String name) throws IOException {
         WebElement nameInput = $(By.xpath("//div/label[text()='" + name + "']/../*[@name]"));
-        WebElement nameInput1 = $(By.xpath("//div[2]/div[7]/div/label[text()='" + name + "']/../*[@name]"));
-        WebElement nameInput2 = $(By.xpath("//div[2]/div[10]/div/label[text()='" + name + "']/../*[@name]"));
         switch (name) {
             case "Организация":
                 sleep(1500);
@@ -163,22 +153,8 @@ public class StreetFiltrePage {
                 break;
             case "Протокол":
                 sleep(1500);
-                //ввод в поле Протокол(Проект)
                 try {
-                    actions().click(nameInput1).perform();
-                    LoggerConsole.LoggNotError("Клик на поле Протокол");
-                } catch (AssertionError err) {
-                    LoggerConsole.Logg("Не произошел клик на поле Протокол");
-                }
-                try {
-                    actions().sendKeys("1234567890").perform();
-                    LoggerConsole.LoggNotError("Ввод в поле Протокол");
-                } catch (AssertionError err) {
-                    LoggerConsole.Logg("Не произошел ввод в поле Протокол");
-                }
-                //ввод в поле Протокол(График проведения работ)
-                try {
-                    actions().click(nameInput2).perform();
+                    actions().click(nameInput).perform();
                     LoggerConsole.LoggNotError("Клик на поле Протокол");
                 } catch (AssertionError err) {
                     LoggerConsole.Logg("Не произошел клик на поле Протокол");
