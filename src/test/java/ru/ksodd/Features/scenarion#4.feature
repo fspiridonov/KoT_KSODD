@@ -4,15 +4,10 @@ Feature: scenarion#4
 
   Scenario: Авторизация
     When вводим логин "mnn"
-    And  вводим пароль "1"
+    And  вводим пароль "2"
 
   Scenario: Пятый
     When перенос тестового запроса в этап пакеты
-
-#  Scenario: Авторизация
-#    When logout
-#    And  вводим логин "test2"
-#    And  вводим пароль "123456"
 
   Scenario: Пятый и Шестой сценарий
 
@@ -52,4 +47,4 @@ Feature: scenarion#4
     When logout
 
   Scenario: ▲▲▲▲▲▲▲ Последний шаг ▲▲▲▲▲▲▲
-    When Stop test
+    When выход из системы

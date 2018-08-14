@@ -8,10 +8,7 @@ import net.bytebuddy.asm.Advice;
 import org.openqa.selenium.By;
 import ru.ksodd.Helpers.ButtonsUtil;
 import ru.ksodd.Helpers.TestHelper;
-import ru.ksodd.Pages.AutorizationPage;
-import ru.ksodd.Pages.InitiativePage;
-import ru.ksodd.Pages.PackagePage;
-import ru.ksodd.Pages.RequestPage;
+import ru.ksodd.Pages.*;
 
 import java.awt.*;
 import java.io.IOException;
@@ -89,7 +86,7 @@ public class TestPackagePage {
     public static void clickCheckBoxInWork() throws AWTException, IOException {
         errorCrarh();
         sleep(3000);
-//        RequestPage.testTest(); // экпериментальное
+        RequestPage.testTest();
         PackagePage.clickCheckBoxInWork(PackagePage.timeNameVar);
     }
 
@@ -138,7 +135,7 @@ public class TestPackagePage {
     }
 
     @When("^выбор улицы из выпадающего списка$")
-    public static void FeelStreet() throws AWTException, IOException {
+    public static void FeelStreet() throws AWTException, IOException, InterruptedException {
         TestHelper.RandomString();
         sleep(1500);
 //        RequestPage.fillStreet("е")
@@ -207,7 +204,7 @@ public class TestPackagePage {
     }
 
     @When("^создание нового запроса$")
-    public static void Creatrequest3Test() throws AWTException, IOException {
+    public static void Creatrequest3Test() throws AWTException, IOException, InterruptedException {
         String timeNameVar = "Документ №" + String.valueOf(System.currentTimeMillis());
         sleep(6000);
         RequestPage.deleteFieldStreet();
@@ -302,7 +299,7 @@ public class TestPackagePage {
     }
 
     @When("^ввод значения в поле улицы$")
-    public static void ButtonNewRealReq() throws AWTException, IOException {
+    public static void ButtonNewRealReq() throws AWTException, IOException, InterruptedException {
         RequestPage.deleteFieldStreet();
         TestHelper.RandomString();
         sleep(1500);
@@ -321,10 +318,9 @@ public class TestPackagePage {
         sleep(1500);
     }
 
-    @When("^клик на кнопку 'Создать'$")
-    public static void CreatClickNewReq() throws AWTException, IOException {
-        ButtonsUtil.clickSpanButton("Создать");
-        sleep(1500);
+    @When("^Клик  на кнопку \"(.*)\"$")
+    public static void CreatClickNewReq(String button) throws AWTException, IOException, InterruptedException {
+        ButtonsUtil.clickSpanButton(button);
     }
 
     @When("^клик на кнопку 'Изменить'$")
@@ -334,14 +330,14 @@ public class TestPackagePage {
     }
 
     @When("^перенос тестового запроса в этап пакеты$")
-    public static void DragDrop() throws AWTException, IOException {
+    public static void DragDrop() throws AWTException, IOException, InterruptedException {
         TestHelper.dragAndDrop("1","2");
         TestHelper.nameDocument();
 
     }
 
     @When("^перенос тесового документа из этапа согласования в этап утверждённые$")
-    public static void Drd9Test() throws AWTException, IOException {
+    public static void Drd9Test() throws AWTException, IOException, InterruptedException {
         TestHelper.dragAndDrop("2", "3");
         sleep(1500);
         TestHelper.nameDocument();
@@ -354,7 +350,7 @@ public class TestPackagePage {
     }
 
     @When("^перенос тесового документа из этапа утверждённых в этап реализации$")
-    public static void Drd10Test() throws AWTException, IOException {
+    public static void Drd10Test() throws AWTException, IOException, InterruptedException {
         TestHelper.dragAndDrop("3", "4");
         TestHelper.nameDocument();
     }

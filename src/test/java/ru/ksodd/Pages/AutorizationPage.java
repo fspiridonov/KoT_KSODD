@@ -20,8 +20,8 @@ public class AutorizationPage {
     public static void fillLogin(String login) throws FileNotFoundException, IOException, AWTException {
 //        Ввожу логин login
         WebElement fieldLogin = $(By.xpath("//*[@placeholder='Имя пользователя']"));
-        Robot r = new Robot();
-        r.keyPress(KeyEvent.VK_F11);
+//        Robot r = new Robot();
+//        r.keyPress(KeyEvent.VK_F11);
         try {
             $(By.xpath("//*[@placeholder='Имя пользователя']")).should(Condition.visible);
             actions().moveToElement(fieldLogin).click().sendKeys(login).perform();

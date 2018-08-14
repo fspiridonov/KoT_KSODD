@@ -63,33 +63,19 @@ public class TestFiltersStreet {
 
     @When("^выбор типа сущпола$")
     public static void choiceType() throws IOException {
-        StreetFiltrePage.choiceType("0");
-        StreetFiltrePage.testNameLoadingFile();
-        StreetFiltrePage.choiceType("2");
-        StreetFiltrePage.testNameLoadingFile();
-        StreetFiltrePage.choiceType("3");
-        StreetFiltrePage.testNameLoadingFile();
+        StreetFiltrePage.choiceType("загрузка сущпола");
+//        StreetFiltrePage.testNameLoadingFile();
+        StreetFiltrePage.choiceType("проекты МВК");
+//        StreetFiltrePage.testNameLoadingFile();
+        StreetFiltrePage.choiceType("прочие ПОДД");
+//        StreetFiltrePage.testNameLoadingFile();
     }
 
-    @When("^ввод в поле Организация$")
-    public static void inputOrganization() throws IOException {
-        StreetFiltrePage.clickAndInput("Организация");
+    @When("^Заполнения значении \"(.*)\" в поле \"(.*)\"$")
+    public static void inputField(String string, String inputName) throws IOException {
+        StreetFiltrePage.clickAndInput(string, inputName);
     }
 
-    @When("^ввод в поле Содержание работ$")
-    public static void inputContentOfWorks() throws IOException {
-        StreetFiltrePage.clickAndInput("Содержание работ");
-    }
-
-    @When("^выбор даты$")
-    public static void selectDate() throws IOException {
-        StreetFiltrePage.selectDate("Дата реализации");
-    }
-
-    @When("^ввод в поле Протокол$")
-    public static void inputProtocol() throws IOException {
-        StreetFiltrePage.clickAndInput("Протокол");
-    }
 
     @When("^клик на кнопку 'Создать '$")
     public static void clickNew() throws IOException {

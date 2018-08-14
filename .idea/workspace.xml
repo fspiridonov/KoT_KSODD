@@ -1,28 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestPackagePage.java" description="//        RequestPage.testTest();" line="91" />
-    <bookmark url="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/RequestPage.java" description="public static void testTest() throws IOException {" line="62" />
-    <bookmark url="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/PackagePage.java" line="498" />
-    <bookmark url="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Runner.java" line="32" />
     <bookmark url="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Runner.java" />
-    <bookmark url="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Scenario_1.java" line="35" />
-    <bookmark url="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/StreetFiltrePage.java" line="51" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4df23628-aa4c-4340-aee3-a6fa91811095" name="Default" comment="[+] обратный драг енд дроп, изменился метод ввода данных, добавлены сценарии выбора типа, добавлено глобальное хранилище">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/MVKPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/MVK/AvariyProject.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/MVK/CreateMVK.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/MVK/MKN2.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/MVK/MKV3.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/MVK/MVK4.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestMVKPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/MVK.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/MVK.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/MVK.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#street_filter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#street_filter.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#2.1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#2.1.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#2.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#2.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#3.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#3.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#3_error.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#3_error.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#4.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#4.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#5.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#5.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/ButtonsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/ButtonsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/LoggerConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/LoggerConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/StorageString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/StorageString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/TestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/TestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/AutorizationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/AutorizationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/MVKPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/MVKPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/PackagePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/PackagePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/StreetFiltrePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/StreetFiltrePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestFiltersStreet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestFiltersStreet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestInitiativePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestInitiativePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestPackagePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestPackagePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestProjectMVKPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestProjectMVKPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestRequestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestRequestPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="C:\Users\Boriskin_SA\Desktop\testing\KoT\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,16 +52,137 @@
       <FILTER>ru.ksodd.Runners.*</FILTER>
     </SUITE>
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1289836330">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="feature" value="1350" />
+          <entry key="java" value="3204" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Cucumber" value="1350" />
+          <entry key="JAVA" value="3204" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="feature" value="45" />
+          <entry key="java" value="87" />
+          <entry key="mvn" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="Cucumber" value="45" />
+          <entry key="JAVA" value="87" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="KoTClone" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MVK.feature" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/MVK.feature">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestMVKPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="307">
+              <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1612#1613#0" expanded="true" />
+                <element signature="e#1647#1648#0" expanded="true" />
+                <element signature="e#1736#1737#0" expanded="true" />
+                <element signature="e#1775#1776#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="32" column="83" lean-forward="true" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/MVK/MVK4.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/MVK/AvariyProject.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestProjectMVKPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/MVKPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="144" column="74" selection-start-line="144" selection-start-column="74" selection-end-line="144" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/MVK/MKV3.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/MVK/CreateMVK.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/MVK/MKN2.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -102,13 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#Request_type_actual_initCODD.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#Initiative_type_normal.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#Initiative_type_MVK.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#Initiative_type_Importance.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#Request_type_new_project.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#Request_type_PODD_MVK.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestTestPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/Cleaning.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Scenario_3.java" />
@@ -117,42 +247,49 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Scenario_4.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Scenario_6.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Scenario_6_1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestRequestPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Scenario_2.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Scenario_1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/StorageString.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/downDragAndDrop.feature" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/BackMove.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#3_error.feature" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/downDnD.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#2.1.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#3.feature" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#4.1.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#4.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#5.feature" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#6.1.feature" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#6.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/AutorizationPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/InitiativePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestInitiativePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#redactor.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestProjectMVKPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestAutorizationPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#1.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#2.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/ButtonsUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/RequestPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#7.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestPackagePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/LoggerConsole.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/TestHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#street_filter.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/MVKPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestFiltersStreet.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/MVK.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Runner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/PackagePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/AutorizationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#2.1.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#3_error.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#3.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#4.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#5.feature" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/StreetFiltrePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#street_filter.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/PackagePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestFiltersStreet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/ButtonsUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/MVK.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#2.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/TestHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestRequestPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/StorageString.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestInitiativePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestPackagePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/MVK/2MVN.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/MVK/CreateMVK.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestMVKPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestProjectMVKPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/MVK/MVN2.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/MVK/MKV3.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/MVK/AvariyProject.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Runner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/MVKPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/MVK/MVK4.feature" />
       </list>
     </option>
   </component>
@@ -170,15 +307,25 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="KoT" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="KoT" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="KoT" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Run Configurations" type="21c1f71a:MavenProjectsStructure$RunConfigurationsNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="x" value="789" />
+    <option name="y" value="4" />
+    <option name="width" value="656" />
+    <option name="height" value="456" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -244,17 +391,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="KoTClone" type="cbb8eebc:String" user="KoTClone" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,7 +447,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ksodd" type="462c0819:PsiDirectoryNode" />
               <item name="Features" type="462c0819:PsiDirectoryNode" />
-              <item name="Type_Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="MVK" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KoT_KSODD" type="b2602c69:ProjectViewProjectNode" />
@@ -374,27 +511,38 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="KoTClone" type="cbb8eebc:String" user="KoTClone" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/sun/awt/windows/WToolkit.java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534253848149" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../KoT_Zakupki" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="ru.ksodd.Helpers.GlobalVariables" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\KoTClone\src\test\java\ru\ksodd\Features\Type_Tests" />
-      <recent name="C:\KoTClone\src\test\java\ru\ksodd\Features" />
-      <recent name="C:\Users\Boriskin_SA\Downloads\Telegram Desktop\KoTClone\KoTClone\src\test\java\ru\ksodd\Runners\type_tests\Initiative_normal" />
-      <recent name="C:\Users\Boriskin_SA\Downloads\Telegram Desktop\KoTClone\KoTClone\src\test\java\ru\ksodd\Runners\type_tests" />
-      <recent name="C:\Users\Boriskin_SA\Downloads\Telegram Desktop\KoTClone\KoTClone\src\test\java\ru\ksodd\Runners\type_tests\Initiative_MVK" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Test\Desktop\KoT_KSODD\KoT_KSODD\src\test\java\ru\ksodd\Features\Type_Tests\MVK" />
+      <recent name="C:\Users\Boriskin_SA\Downloads\Telegram Desktop\KoTClone\KoTClone\src\test\java\ru\ksodd\Features" />
+      <recent name="C:\Users\Boriskin_SA\Downloads\Telegram Desktop\KoTClone\KoTClone\src\test\java\ru\ksodd\Steps" />
+      <recent name="C:\Users\Boriskin_SA\Downloads\Telegram Desktop\KoTClone\KoTClone\src\test\java\ru\ksodd\Features\Type_Tests" />
+      <recent name="C:\Users\Boriskin_SA\Downloads\Telegram Desktop\KoTClone\KoTClone\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ru.ksodd.Pages" />
@@ -403,12 +551,12 @@
       <recent name="ru.ksodd.Runners.type_tests" />
       <recent name="ru.ksodd.Runners" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Boriskin_SA\Downloads\Telegram Desktop\KoTClone\KoTClone\src\test\java\ru\ksodd\Features" />
-      <recent name="C:\Users\Boriskin_SA\Downloads\Telegram Desktop\KoTClone\KoTClone\src\test\java\ru\ksodd\Steps" />
-      <recent name="C:\Users\Boriskin_SA\Downloads\Telegram Desktop\KoTClone\KoTClone\src\test\java\ru\ksodd\Features\Type_Tests" />
-      <recent name="C:\Users\Boriskin_SA\Downloads\Telegram Desktop\KoTClone\KoTClone\src\test\resources" />
-      <recent name="C:\Users\mdivani_MG\Documents\mgtniip\KoT\src\test\repository\webDriver" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\KoTClone\src\test\java\ru\ksodd\Features\Type_Tests" />
+      <recent name="C:\KoTClone\src\test\java\ru\ksodd\Features" />
+      <recent name="C:\Users\Boriskin_SA\Downloads\Telegram Desktop\KoTClone\KoTClone\src\test\java\ru\ksodd\Runners\type_tests\Initiative_normal" />
+      <recent name="C:\Users\Boriskin_SA\Downloads\Telegram Desktop\KoTClone\KoTClone\src\test\java\ru\ksodd\Runners\type_tests" />
+      <recent name="C:\Users\Boriskin_SA\Downloads\Telegram Desktop\KoTClone\KoTClone\src\test\java\ru\ksodd\Runners\type_tests\Initiative_MVK" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -428,9 +576,15 @@
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KoT" />
@@ -440,20 +594,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.ksodd.Runners" />
       <option name="MAIN_CLASS_NAME" value="ru.ksodd.Runners.Runner" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Scenario_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KoT" />
@@ -463,20 +609,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.ksodd.Runners" />
       <option name="MAIN_CLASS_NAME" value="ru.ksodd.Runners.Scenario_1" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Scenario_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KoT" />
@@ -486,20 +624,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.ksodd.Runners" />
       <option name="MAIN_CLASS_NAME" value="ru.ksodd.Runners.Scenario_2" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Scenario_2_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KoT" />
@@ -509,20 +639,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.ksodd.Runners" />
       <option name="MAIN_CLASS_NAME" value="ru.ksodd.Runners.Scenario_2_1" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Scenario_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KoT" />
@@ -532,36 +654,18 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.ksodd.Runners" />
       <option name="MAIN_CLASS_NAME" value="ru.ksodd.Runners.Scenario_3" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="BackMove" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -587,6 +691,7 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="S1" type="MavenRunConfiguration" factoryName="Maven">
       <output_file path="$PROJECT_DIR$/../отчеты/Сценарий_1.txt" is_save="true" />
@@ -613,6 +718,7 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="S2" type="MavenRunConfiguration" factoryName="Maven">
       <output_file path="$PROJECT_DIR$/../отчеты/Сценарий_2.txt" is_save="true" />
@@ -639,6 +745,7 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="S2.1" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -664,6 +771,7 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="S3" type="MavenRunConfiguration" factoryName="Maven">
       <output_file path="$PROJECT_DIR$/../отчеты/Сценарий_3.txt" is_save="true" />
@@ -690,6 +798,7 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="S4" type="MavenRunConfiguration" factoryName="Maven">
       <output_file path="$PROJECT_DIR$/../отчеты/Сценарий_4.txt" is_save="true" />
@@ -716,6 +825,7 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="S4.1" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -741,6 +851,7 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="S5" type="MavenRunConfiguration" factoryName="Maven">
       <output_file path="$PROJECT_DIR$/../отчеты/Сценарий_5.txt" is_save="true" />
@@ -767,6 +878,7 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="S6" type="MavenRunConfiguration" factoryName="Maven">
       <output_file path="$PROJECT_DIR$/../отчеты/Сценарий_6.txt" is_save="true" />
@@ -793,6 +905,7 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="S6.1" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -818,28 +931,15 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="scenarion#2.feature" type="substepsFeature" factoryName="Substeps Feature" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="" />
@@ -1101,38 +1201,38 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Runner - 2018.05.17 at 16h 41m 48s.xml">
+    <history-entry file="Runner - 2018.08.14 at 14h 02m 03s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.05.17 at 16h 45m 38s.xml">
+    <history-entry file="Runner - 2018.08.14 at 14h 13m 44s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.05.17 at 16h 53m 58s.xml">
+    <history-entry file="Runner - 2018.08.14 at 14h 17m 49s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.05.17 at 16h 57m 43s.xml">
+    <history-entry file="Runner - 2018.08.14 at 15h 22m 24s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.05.17 at 17h 13m 00s.xml">
+    <history-entry file="Runner - 2018.08.14 at 15h 25m 11s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.05.17 at 17h 19m 15s.xml">
+    <history-entry file="Runner - 2018.08.14 at 15h 35m 23s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.05.17 at 17h 20m 06s.xml">
+    <history-entry file="Runner - 2018.08.14 at 15h 37m 37s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.05.17 at 17h 21m 02s.xml">
+    <history-entry file="Runner - 2018.08.14 at 15h 47m 31s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.05.17 at 17h 22m 03s.xml">
+    <history-entry file="Runner - 2018.08.14 at 15h 51m 07s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.05.17 at 17h 29m 56s.xml">
+    <history-entry file="Runner - 2018.08.14 at 15h 53m 27s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -1142,36 +1242,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.2673913" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5104167" side_tool="true" weight="0.20678686" />
-      <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.8436578" visible="true" weight="0.14119804" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49409914" weight="0.35" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37232846" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32704404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8493976" visible="true" weight="0.20202559" />
+      <window_info id="Structure" order="1" sideWeight="0.24963072" side_tool="true" weight="0.20202559" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68773234" visible="true" weight="0.24266504" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24946696" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" sideWeight="0.31226766" side_tool="true" weight="0.20110025" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.48958334" weight="0.23734534" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="6" sideWeight="0.15634218" side_tool="true" weight="0.22121535" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Favorites" order="5" sideWeight="0.15060242" side_tool="true" visible="true" weight="0.20202559" />
+      <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32934782" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4978678" weight="0.2923913" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3716143" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.48958334" visible="true" weight="0.28060672" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.2665222" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5104167" side_tool="true" weight="0.20678686" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4978678" weight="0.29" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32704404" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49409914" weight="0.35" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24946696" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Coverage" order="6" sideWeight="0.15634218" side_tool="true" weight="0.22121535" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.8436578" weight="0.16364606" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1238,20 +1337,6 @@
     <MESSAGE value="[+] загрузка проекта" />
     <option name="LAST_COMMIT_MESSAGE" value="[+] загрузка проекта" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="921" />
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="RequestPage.reqMap" language="JAVA" custom="ru.ksodd.Pages.RequestPage" />
-        <watch expression="e" />
-      </configuration>
-    </watches-manager>
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -1266,54 +1351,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#redactor.feature" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/FileInputStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/FillUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestInitiativePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="189" column="28" lean-forward="true" selection-start-line="189" selection-start-column="28" selection-end-line="189" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestAutorizationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestTestPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="89" column="19" lean-forward="true" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/dbConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestRequestPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="132" column="35" lean-forward="true" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#6.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="15" />
+        <state relative-caret-position="255">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -1324,274 +1365,342 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/RequestPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/LoggerConsole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+        <state relative-caret-position="196">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#7.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestPackagePage.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/jar/Attributes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="91" column="26" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+        <state relative-caret-position="204">
+          <caret line="473" selection-start-line="473" selection-end-line="473" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="218" column="23" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#redactor.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#street_filter.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="25" column="21" selection-start-line="25" selection-end-line="28" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../KoT_Zakupki/KoT_Zakupki/src/test/java/ru/zakupki/Pages/ProcurementPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Scenario_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/ButtonsUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#street_filter.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/TestHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#1.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/MVKPage.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/InitiativePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/RequestPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="288" selection-start-line="288" selection-end-line="288" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#3.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#2.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#2.1.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#3_error.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#4.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar!/cucumber/api/junit/Cucumber.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar!/cucumber/runtime/junit/FeatureRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar!/cucumber/runtime/junit/ExecutionUnitRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/model/CucumberScenario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/model/StepContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/Runtime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="312" selection-start-line="312" selection-end-line="312" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/StepDefinitionMatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="240" selection-start-line="240" selection-end-line="240" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunBefores.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/nio/cs/StreamEncoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="111" column="16" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/OutputStreamWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="228" column="14" lean-forward="true" selection-start-line="228" selection-start-column="14" selection-end-line="228" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/Writer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/StorageString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="632" column="16" selection-start-line="632" selection-start-column="16" selection-end-line="632" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1.jar!/org/openqa/selenium/By.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/LoggerConsole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1721">
-          <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/AutorizationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/PackagePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="721" column="19" selection-start-line="721" selection-start-column="19" selection-end-line="721" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestProjectMVKPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestFiltersStreet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+        <state relative-caret-position="69">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/StreetFiltrePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
+        <state relative-caret-position="383">
+          <caret line="54" column="59" lean-forward="true" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/MVK.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/AutorizationPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <caret line="38" column="85" selection-start-line="38" selection-start-column="85" selection-end-line="38" selection-end-column="85" />
+          <folding>
+            <marker date="1533188407151" expanded="true" signature="748:810" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestFiltersStreet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestTestPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#0.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/StorageString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/InitiativePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="60" column="89" selection-start-line="60" selection-start-column="89" selection-end-line="60" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/downDnD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="139" column="19" selection-start-line="139" selection-start-column="19" selection-end-line="139" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestInitiativePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestRequestPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#7.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#Initiative_type_normal.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#Request_type_actual_initCODD.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#Request_type_new_project.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#5.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/repository/apache-maven-3.5.2/bin/mvn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/ButtonsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#4.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#1.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#2.1.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Helpers/TestHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="150" column="23" selection-start-line="150" selection-start-column="23" selection-end-line="150" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestPackagePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="202" column="41" lean-forward="true" selection-start-line="202" selection-start-column="41" selection-end-line="202" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.8.1/selenium-remote-driver-3.8.1.jar!/org/openqa/selenium/interactions/Actions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="80" column="52" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#3_error.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#3.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/scenarion#2.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/Type_Tests/scenarion#Initiative_type_Importance.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/downDragAndDrop.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/MVK/MKV3.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/MVK/CreateMVK.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/PackagePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="697" column="19" selection-start-line="697" selection-start-column="19" selection-end-line="697" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/MVK/MKN2.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestProjectMVKPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Runners/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="32" column="83" lean-forward="true" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Steps/TestMVKPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1612#1613#0" expanded="true" />
+            <element signature="e#1647#1648#0" expanded="true" />
+            <element signature="e#1736#1737#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Pages/MVKPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="144" column="74" selection-start-line="144" selection-start-column="74" selection-end-line="144" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/MVK/MVK4.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ksodd/Features/MVK/AvariyProject.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>

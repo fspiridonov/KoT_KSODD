@@ -69,7 +69,7 @@ public class TestRequestPage {
 
 
     @When("^create request from init by drag&drop with type \"(.*)\" and length of \"(.*)\"$")
-    public static void initByDragAndDrop(String type, String length) throws AWTException, IOException {
+    public static void initByDragAndDrop(String type, String length) throws AWTException, IOException, InterruptedException {
         RequestPage.countStreetInitiatives(TestInitiativePage.street); // Заношу список инициатив с данной улицей в массив
 
         for (int i = 0; i < 3; i++) {

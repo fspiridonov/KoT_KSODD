@@ -484,7 +484,7 @@ public class PackagePage {
     public static void fillresponsible() throws IOException {
         WebElement openList = $(By.xpath("//label[text()='Отвественный']/ancestor::div[1]/div[@class='t-patterns__combobox i-bem t-patterns__combobox_js_inited']"));
         sleep(3000);
-        WebElement clickofListElem = $(By.xpath("//li[text()='ttt1']"));
+        WebElement clickofListElem = $(By.xpath("//li[text()='ttt']"));
         try {
             actions().click(openList).perform();
             actions().click(clickofListElem).perform();
@@ -696,7 +696,7 @@ public static void getcounty() throws IOException {
 //==================================================================================================================================
 //======================================войти в Проекты МВК=====================================================================
 public static void mvkProject () throws IOException {
-    WebElement xpath = $(By.xpath("//button[@class='b-button-call btn btn-primary i-bem b-button-call_js_inited']/span[text()='Новый проект']"));
+    WebElement xpath = $(By.xpath("//div/a[@title='Перейти к MVK']"));
     sleep(3000);
     try {
         actions().click(xpath).perform();

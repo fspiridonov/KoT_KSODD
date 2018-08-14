@@ -1,41 +1,34 @@
 package ru.ksodd.Steps;
 
 
-import cucumber.api.CucumberOptions;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import ru.ksodd.Helpers.ButtonsUtil;
-import ru.ksodd.Helpers.FillUtil;
 import ru.ksodd.Helpers.TestHelper;
 import ru.ksodd.Pages.InitiativePage;
 import ru.ksodd.Pages.PackagePage;
-import ru.ksodd.Pages.RequestPage;
 
 import java.awt.*;
 import java.io.IOException;
 
-import static com.codeborne.selenide.Selenide.refresh;
 import static java.lang.Thread.sleep;
 
 
 public class TestInitiativePage {
 
-   public static String street = "Мясницкая улица"; //Название улицы
-   public static String shortStreet = "Ул"; //Два первых символа названия улицы для сортировки и ее проверки
-//   public static String[] importance = {"Важная", "МВК", "Обычная"}; //Типы статусов инициатив
+    public static String street = "Мясницкая улица"; //Название улицы
+    public static String shortStreet = "Ул"; //Два первых символа названия улицы для сортировки и ее проверки
+    //   public static String[] importance = {"Важная", "МВК", "Обычная"}; //Типы статусов инициатив
     public static String[] importance = {"Важная"}; //Типы статусов инициатив
 
 
-
-
-
     @When("^Выбирает улицу$")
-    public static void SelectStreet () throws InterruptedException {
+    public static void SelectStreet() throws InterruptedException {
         shortStreet = street.substring(0, 2); // В переменную записываются 2 символа с 0 позиции значения переменной street
-            sleep(1500);
-            InitiativePage.fillInput("Новая инициатива", "Улица", shortStreet);// ввести значение shortStreet перед запуском.
-            sleep(1500);
-            InitiativePage.selectStreet("Улица", street); // ввести название улицы (street) перед запуском.
+        sleep(1500);
+        InitiativePage.fillInput("Новая инициатива", "Улица", shortStreet);// ввести значение shortStreet перед запуском.
+        sleep(1500);
+        InitiativePage.selectStreet("Улица", street); // ввести название улицы (street) перед запуском.
     }
 
     @When("^Создание новой инициативы для \"(.*)\"$")
@@ -67,11 +60,9 @@ public class TestInitiativePage {
 
     @Then("^Проверяет, что форма закрылась$")
     public static void estCloseWindow() throws InterruptedException, IOException {
-
         sleep(3000);
         TestHelper.testCloseWindowCreatInit("Новая инициатива");
     }
-
 
 
     @When("^Выбирает 'Тип' 'Обычная'$")
@@ -80,22 +71,24 @@ public class TestInitiativePage {
     }
 
     @When("^Выбирает 'Тип' 'МВК'$")
-    public static void InitSelectTypeMVK () {
+    public static void InitSelectTypeMVK() {
         InitiativePage.selectImportance("МВК");
     }
+
     @When("^Выбирает 'Тип' 'Важная'$")
-    public static void InitSelectTypeImportance () {
+    public static void InitSelectTypeImportance() {
         InitiativePage.selectImportance("Важная");
     }
 
     @When("^Клик на кнопку 'Новая инициатива'$")
-    public static void NewInit () throws IOException {
+    public static void NewInit() throws IOException {
         ButtonsUtil.clickSpanButton("Новая инициатива");
         TestHelper.testOpenWindows("Новая инициатива");
 
     }
+
     @When("^Прикрепляем файл$")
-    public static void LoadFileInit () {
+    public static void LoadFileInit() {
         TestHelper.loadFile("Initiative.txt");
     }
 
@@ -175,7 +168,7 @@ public class TestInitiativePage {
     }
 
     @When("^filter test$")
-    public static void filtertest(){
+    public static void filtertest() {
         InitiativePage.filterTest();
 
     }
@@ -189,27 +182,30 @@ public class TestInitiativePage {
     public static void responsible() throws IOException {
         PackagePage.fillresponsible();
     }
+
     @When("^входит в последнюю инициативу$")
     public static void InInitiativeLast() throws IOException {
         InitiativePage.inInitiativeLast();
     }
+
     @When("^клик на редактирование инициативы$")
     public static void InInitiativeRedactor() throws IOException {
         InitiativePage.inInitiativeRedactor();
     }
-@When("^редактор поля улицы \"(.*)\"$")
-    public static void StreetRedactorInit(String str) throws Throwable {
-    InitiativePage.InitiativeRedactorStreet(str);
-}
 
-@When("^редактирование содержания работ$")
-public static void ContentRedactorInit() throws IOException{
-    InitiativePage.fillContentRedactorInit();
-}
+    @When("^редактор поля улицы \"(.*)\"$")
+    public static void StreetRedactorInit(String str) throws Throwable {
+        InitiativePage.InitiativeRedactorStreet(str);
+    }
+
+    @When("^редактирование содержания работ$")
+    public static void ContentRedactorInit() throws IOException {
+        InitiativePage.fillContentRedactorInit();
+    }
 
     @When("^редактирование статуса \"(.*)\"$")
-    public static void InitiativeRedactorStatus(String type) throws Throwable{
+    public static void InitiativeRedactorStatus(String type) throws Throwable {
         InitiativePage.InitiativeRedactorType(type);
     }
-    }
+}
 

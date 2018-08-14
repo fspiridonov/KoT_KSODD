@@ -28,8 +28,8 @@ import static com.codeborne.selenide.Selenide.open;
         features = {"src/test/java/ru/ksodd/Features"},
         glue = "ru/ksodd/Steps",
 //        tags = {""},
-//        tags = {"@scenario#2"},
-        tags = {"@scenario#formStreet"},
+        tags = {"@scenario1#CreateMVK, @scenario2#mvk2, @scenario3#mvk3, @scenario4#mvk4"},
+//        tags = {"@scenario#formStreet"},
         format = {"json:target/cucumber.json", "html:target/site/cucumber-pretty"},
         plugin = {"pretty:target/txt.txt"},
         strict = true
@@ -49,7 +49,7 @@ public class Runner {
 //        Если нужно оставлять броузер открытым по окончании теста, по умолчанию значение false
 //        Configuration.holdBrowserOpen = true;
 
-        open("http://172.20.0.78:9494/");
+        open("http://172.20.0.78:8181/");
         Configuration.savePageSource = false;
 
     }

@@ -13,6 +13,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static com.codeborne.selenide.Selenide.*;
+import static java.lang.Thread.sleep;
+import static ru.ksodd.Helpers.LoggerConsole.Logg;
+import static ru.ksodd.Helpers.LoggerConsole.LoggNotError;
+import static ru.ksodd.Helpers.StorageString.stringNumberDoc.numberDoc;
 
 
 public class MVKPage {
@@ -21,85 +25,11 @@ public class MVKPage {
             "Проект DGN", "Изменения PDF", "Выписка протокола МВК", "Акт проведения авторского надзора"};
     public static List<String> nameFile1 = new ArrayList<>();
     public static String[] yyy = {};
+    public static List<String> nameCheck = new ArrayList<String>();
+    public static String[] zzz = {};
 
 
-    public static void clickFieldFilter(String name) throws IOException {  //Кликает на поля
-        WebElement field = $(By.xpath("//div[@class='dropdown-toggle clearfix']/input[@placeholder='" + name + "']"));
-        sleep(1500);
-        try {
-            actions().click(field).perform();
-            LoggerConsole.LoggNotError("Клик на поле " + name + "");
-        } catch (AssertionError err) {
-            LoggerConsole.Logg("Не произошел клик на поле " + name + "");
-        }
-    }
-
-
-    public static void inputField(String name) throws IOException {  //вводит данные в поле
-        sleep(1500);
-        try {
-            actions().sendKeys("" + name + "").sendKeys(Keys.ENTER).perform();
-            LoggerConsole.LoggNotError("Ввод в поле");
-        } catch (AssertionError err) {
-            LoggerConsole.Logg("Не произошел ввод в поле");
-        }
-
-    }
-
-
-    public static void clickArchive() throws IOException {  //кликает на первый найденный архив по параметрам
-        WebElement arch = $(By.xpath("//div[@class='storage-body']/div[@class='storage-body__row'][1]"));
-        sleep(1500);
-        try {
-            actions().doubleClick(arch).perform();
-            LoggerConsole.LoggNotError("Клик на архив");
-        } catch (AssertionError err) {
-            LoggerConsole.Logg("Не произошел клик по поле");
-        }
-    }
-
-    public static void clickTab(int num) throws IOException {
-        WebElement tab = $(By.xpath("//div[@class='tabs-list__header']//div[@class='tabs-list__header-item'][" + num + "]"));
-        sleep(1500);
-        try {
-            actions().click(tab).perform();
-            LoggerConsole.LoggNotError("Клик на колонку");
-        } catch (AssertionError err) {
-            LoggerConsole.Logg("Не произошел клик на колонку");
-        }
-    }
-
-    public static void clickAddPlus() throws IOException {
-        WebElement add = $(By.cssSelector("#app > div.search > div.search__footer > svg"));
-        sleep(1500);
-        try {
-            actions().click(add).perform();
-            LoggerConsole.LoggNotError("Клик на колонку");
-        } catch (AssertionError err) {
-            LoggerConsole.Logg("Не произошел клик на колонку");
-        }
-
-    }
-
-    public static void choiceType(String numId) throws IOException {
-        WebElement type = $(By.xpath("//button[@class='btn btn-default dropdown-toggle']/*[@id='input']")); //клик на само поле Тип
-        WebElement typeList = $(By.xpath("//ul[@class='b-combobox__list dropdown-menu i-bem b-combobox__list_js_inited']/li[@data-id='" + numId + "']")); //выбор из списка
-        try {
-            actions().click(type).perform();
-            LoggerConsole.LoggNotError("Клик на поле тип");
-        } catch (AssertionError err) {
-            LoggerConsole.Logg("Не произошел клик на поле тип");
-        }
-        try {
-            actions().click(typeList).perform();
-            LoggerConsole.LoggNotError("Выбор из списка");
-        } catch (AssertionError err) {
-            LoggerConsole.Logg("Не произошел клик на поле тип");
-        }
-    }
-
-
-    public static void testNameLoadingFile() throws IOException {
+    public static void testNameLoadingFile() throws IOException, InterruptedException {
         ElementsCollection collection = $$(By.xpath("//div[@class='b-block i-bem b-block_js_inited']/label[text()]"));
         sleep(1500);
 
@@ -118,87 +48,105 @@ public class MVKPage {
     }
 
 
-    public static void clickAndInput(String name) throws IOException {
-        WebElement nameInput = $(By.xpath("//div/label[text()='" + name + "']/../*[@name]"));
-        switch (name) {
-            case "Организация":
-                sleep(1500);
-                try {
-                    actions().click(nameInput).perform();
-                    LoggerConsole.LoggNotError("Клик на поле Организация");
-                } catch (AssertionError err) {
-                    LoggerConsole.Logg("Не произошел клик на поле Организация");
-                }
-                try {
-                    actions().sendKeys("Спарта").perform();
-                    LoggerConsole.LoggNotError("Ввод в поле Организация");
-                } catch (AssertionError err) {
-                    LoggerConsole.Logg("Не произошел ввод в поле Организация");
-                }
-                break;
-            case "Содержание работ":
-                sleep(1500);
-                try {
-                    actions().click(nameInput).perform();
-                    LoggerConsole.LoggNotError("Клик на поле Содержание работ");
-                } catch (AssertionError err) {
-                    LoggerConsole.Logg("Не произошел клик на поле Содержание работ");
-                }
-                try {
-                    actions().sendKeys("Обучаем будущех перцев для битвы c Персидской армией").perform();
-                    LoggerConsole.LoggNotError("Ввод в поле Содержание работ");
-                } catch (AssertionError err) {
-                    LoggerConsole.Logg("Не произошел ввод в поле Содержание работ");
-                }
-                break;
-            case "Протокол":
-                sleep(1500);
-                try {
-                    actions().click(nameInput).perform();
-                    LoggerConsole.LoggNotError("Клик на поле Протокол");
-                } catch (AssertionError err) {
-                    LoggerConsole.Logg("Не произошел клик на поле Протокол");
-                }
-                try {
-                    actions().sendKeys("1234567890").perform();
-                    LoggerConsole.LoggNotError("Ввод в поле Протокол");
-                } catch (AssertionError err) {
-                    LoggerConsole.Logg("Не произошел ввод в поле Протокол");
-                }
-                break;
+    public static void clickButton(String id) throws IOException, InterruptedException {
+        WebElement but = $(By.xpath("//div[@class='kanban-column']['" + id + "']/div[3]/button/div"));
+        try {
+            sleep(2000);
+            actions().click(but).perform();
+            LoggNotError("Произошел клик на кнопку");
+        } catch (Error e) {
+            Logg("Не произошел клик на кнопку");
         }
     }
 
+    public static void clickButtonAndField(String txt, String txt1) throws IOException {
+//        String timeNameVar = String.valueOf(System.currentTimeMillis());
+        numberDoc = String.valueOf(System.currentTimeMillis());
+        WebElement but = $(By.xpath("//div/*[@aria-label='" + txt1 + "']"));
+        try {
+            actions().click(but).sendKeys(numberDoc).perform();
+//            numberDoc = but.getText();
+            LoggNotError("Произошел клик на поле " + txt1 + " и ввод значении в поле");
+        } catch (Error e) {
+            Logg("Не произошел клик на кнопку");
+        }
+    }
 
-    public static void selectDate(String date) throws IOException {
-        WebElement tab = $(By.xpath("//label[text()='" + date + "']/../input[@name='target_date']"));
-        WebElement tap = $(By.xpath("//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td"));
+    //Ввод и выбор улицы
+    public static void inputFieldStreet(String name) throws IOException, InterruptedException {  //вводит данные в поле
         sleep(1500);
+        WebElement link = $(By.xpath("//*[@id='formMVKS']/div[2]/div/div/div/label"));
+//        WebElement strlist = $(By.xpath("//a[contains(text(),'"+name+"')]"));
+
         try {
-            actions().click(tab).perform();
-            LoggerConsole.LoggNotError("Клик на поле календарь");
+
+            actions().click(link).sendKeys("1-й Добрынинский переулок").sendKeys(Keys.ENTER).sendKeys(Keys.ESCAPE).perform();
+            LoggerConsole.LoggNotError("Ввод в поле");
         } catch (AssertionError err) {
-            LoggerConsole.Logg("Не произошел клик на поле календарь");
+            LoggerConsole.Logg("Не произошел ввод в поле");
         }
-        try {
-            actions().click(tap).perform();
-            LoggerConsole.LoggNotError("Клик на число в дате");
-        } catch (AssertionError err) {
-            LoggerConsole.Logg("Не произошел клик на число в дате");
-        }
+
     }
 
-
-    public static void clickAdd(String nameBut) throws IOException {
-        WebElement button = $(By.xpath("//button/span[text()='" + nameBut + "']"));
+    //Выбор типа
+    public static void inputFieldType(String type) throws IOException, InterruptedException {
         sleep(1500);
+        WebElement link = $(By.xpath("//*[@id='formMVKS']/div[5]/div/div/div/div[1]/div[1]/input"));
         try {
-            actions().click(button).perform();
-            LoggerConsole.LoggNotError("Клик на кнопку Создать");
+            actions().click(link).sendKeys(type).sendKeys(Keys.ENTER).sendKeys(Keys.ESCAPE).perform();
+            LoggerConsole.LoggNotError("Ввод в поле");
         } catch (AssertionError err) {
-            LoggerConsole.Logg("Не произошел клик кнопку Создать");
+            LoggerConsole.Logg("Не произошел ввод в поле");
         }
     }
+
+    public static void testStorage() throws InterruptedException {
+        sleep(3000);
+        $(By.xpath("//div[contains(text(),'" + numberDoc + "')]/../../div[3]/div/div[text()]")).isEnabled();
+        String xpath = "//div[contains(text(),'" + numberDoc + "')]/../../div[3]/div/div[text()]";
+        ElementsCollection collect = $$(By.xpath(xpath));
+
+        for (SelenideElement aCollection : collect) {
+            String ch = aCollection.getText();
+            nameCheck.add(ch);
+        }
+    }
+
+    public static void clickCheck(String txt) throws IOException, InterruptedException {
+        sleep(4000);
+        WebElement xpath = $(By.xpath("//div[text()[contains(.,'" + numberDoc + "')]]/../../div[3]/div/div/div[text()='" + txt + "']"));
+        actions().click(xpath).perform();
+
+    }
+
+    public static void inputField(String txt, String nameField) throws InterruptedException {
+        sleep(1500);
+        WebElement comment = $(By.xpath("//*[@aria-label='"+nameField+"']"));
+        actions().click(comment).sendKeys(txt).perform();
+    }
+
+//    public static void clickButtonForm(){
+//        WebElement button = $(By.xpath("//button[@type='button'][1]/div[@class='btn__content']"));
+//        actions().click(button).perform();
+//    }
+
+    public static void clickSave(){
+        WebElement xpath = $(By.xpath("//button/div[@class='btn__content']"));
+        actions().click(xpath).perform();
+    }
+
+    public static void clickSaveNext(){
+        WebElement xpath = $(By.xpath("//button/div[@class='btn__content']"));
+        actions().click(xpath).pause(1000).sendKeys(Keys.TAB).pause(1000).sendKeys(Keys.ENTER).perform();
+    }
+
+    public static void DnD(int colomn1, int colomn2) throws InterruptedException {
+        WebElement drag = $(By.xpath("//div[@data-index='"+colomn1+"']/div/div/div/div[2]/div[text()[contains(.,'"+numberDoc+"')]]"));
+        WebElement drop = $(By.xpath("//div[@data-index='"+colomn2+"']/div"));
+        actions().dragAndDrop(drag,drop).perform();
+        sleep(1500);
+    }
+
 }
 
 

@@ -19,4 +19,4 @@ Feature: scenarion#2_1
     When logout
 
   Scenario: ▲▲▲▲▲▲▲ Последний шаг ▲▲▲▲▲▲▲
-    When Stop test
+    When выход из системы

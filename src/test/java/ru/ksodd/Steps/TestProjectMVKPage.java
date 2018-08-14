@@ -3,8 +3,10 @@ package ru.ksodd.Steps;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.WebElement;
 import ru.ksodd.Helpers.ButtonsUtil;
 import ru.ksodd.Helpers.TestHelper;
+import ru.ksodd.Pages.MVKPage;
 import ru.ksodd.Pages.PackagePage;
 import ru.ksodd.Pages.RequestPage;
 
@@ -38,6 +40,16 @@ public class TestProjectMVKPage {
         PackagePage.mvkProjectcontentWorks();
     }
 
+    @When("^Клик на кнопку \"(.*)\"$")
+    public static void clickButtonCreateMvk(String NameButton) throws IOException, InterruptedException {
+        MVKPage.clickButton(NameButton);
+    }
+
+
+//    @When("^Заполнения значении \"(.*)\" в поле \"(.*)\"$")
+//    public static void inputField(String string, String inputName) throws IOException {
+//        MVKPage.clickAndInput(string, inputName);
+//    }
 
     @When("^заполнить поле Дата реализации$")
     public static void mvkProjectdaterealise() throws AWTException, IOException {
@@ -47,4 +59,5 @@ public class TestProjectMVKPage {
     public static void LoadFileS() throws AWTException, IOException {
         PackagePage.LoadFiles();
     }
+
 }

@@ -23,7 +23,8 @@ public class LoggerConsole {
 
     public static String nameFile = String.valueOf(System.currentTimeMillis());
 
-    public static void Logg(String logg) {
+    public static void
+    Logg(String logg) {
         sleep(1500);
         try {
             WebElement errorText = $(By.xpath("//div[@class='messenger error']"));

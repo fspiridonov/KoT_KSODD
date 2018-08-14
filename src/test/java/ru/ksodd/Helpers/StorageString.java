@@ -25,4 +25,13 @@ public class StorageString {
         }
     }
 
+    public static class stringNumberDoc {
+        public static String numberDoc;
+
+        public static void setNumberDoc(String numberDoc) {
+            stringNumberDoc.numberDoc = numberDoc;
+        }
+    }
+
+
 }

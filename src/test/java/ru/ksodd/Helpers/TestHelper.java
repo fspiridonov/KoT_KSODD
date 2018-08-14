@@ -21,11 +21,14 @@ import static com.codeborne.selenide.Condition.not;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.actions;
+import static java.lang.Thread.sleep;
 import static org.junit.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 import static ru.ksodd.Helpers.LoggerConsole.Logg;
 import static ru.ksodd.Helpers.LoggerConsole.LoggNotError;
 import static ru.ksodd.Helpers.StorageString.contentOfWorks.cWork;
+import static ru.ksodd.Helpers.StorageString.stringNumberDoc.numberDoc;
+
 
 
 public class TestHelper {
@@ -45,7 +48,7 @@ public class TestHelper {
     }
 
 
-    public static void scrollToBottom(String columnNum, String columnType) throws AWTException {
+    public static void scrollToBottom(String columnNum, String columnType) throws AWTException, InterruptedException {
 //        Скроллинг в самый низ колонки
 //        columnNum - номер колонки по id(например, инициатива - 0)
 //        columnType - тип колонки еще раз для подсчета созданных в ней инициатив/запросов и т д (параметр data-bem)
@@ -87,7 +90,7 @@ public class TestHelper {
         }
     }
 
-    public static void testTabEquality() {//пример get
+    public static void testTabEquality() throws InterruptedException{//пример get
         ElementsCollection topCollect = $$(By.xpath("//th[text()='name']/ancestor::table[@class='b-mAppTable b-mAppBookparkon.fuel_types']//div[contains(@class, 'dataField')]"));
         ElementsCollection bottomCollect = $$(By.xpath("//th[text()='name']/ancestor::table[@class='b-mAppTable ']//div[contains(@class, 'dataField')]"));
         for (int i = 0; i < topCollect.size(); i++) {
@@ -284,7 +287,7 @@ public class TestHelper {
         random = Result;
     }
 
-    public static void nameDocument() throws AWTException, IOException {
+    public static void nameDocument() throws AWTException, IOException, InterruptedException {
         WebElement text1 = $(By.xpath("//label[text()='Содержание работ']/ancestor::div[1]/div[@class='b-flex-row i-bem b-flex-row_js_inited']"));
         $(By.xpath("//div[@class='c-process-card drag-drop i-bem c-process-card_js_inited c-process-card_focused']")).doubleClick();
         sleep(1000);
@@ -304,7 +307,7 @@ public class TestHelper {
 
 
     //бесконечный цикл. вводим улицу до тех пор, пока не появится список улиц
-    public static void RandomString() throws IOException {
+    public static void RandomString() throws IOException, InterruptedException {
         for (; ; ) {
             String[] oneList = {"б", "в", "г", "д", "ж", "з", "к", "л", "м", "н", "п", "р", "с", "т"};
             String[] twoList = {"а", "е", "и", "о", "у", "я"};
@@ -333,6 +336,27 @@ public class TestHelper {
         } catch (Error e) {
             $(By.xpath("//form//div[@class='messenger error'] | //div[@class='messenger error']")).waitUntil(Condition.visible, 2000);
             Logg("Выводится строка ошибки");
+        }
+    }
+
+    public static void fillname(String txt) throws IOException, InterruptedException {
+//Заполняет поле 'Наименование'
+        WebElement name = $(By.xpath("//textarea[@name='name']"));
+        sleep(1500);
+        Random random = new Random();
+        int num = random.nextInt(99);
+        String randomDoc = txt+num;
+        try {
+
+
+            actions().click(name).sendKeys(randomDoc).perform();
+
+            numberDoc = randomDoc;
+            LoggerConsole.LoggNotError("Заполнение поля наименования");
+
+
+        } catch (Error e) {
+            LoggerConsole.Logg("Не смог заполнить поле наименования");
         }
     }
 

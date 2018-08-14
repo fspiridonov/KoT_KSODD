@@ -22,8 +22,8 @@ public class ButtonsUtil {
     public static void clickSpanButton(String text) throws FileNotFoundException, IOException {
         sleep(1500);
         try {
-            $(By.xpath("//button//span[text()='" + text + "'] | //button//div[text()='" + text + "']")).should(Condition.visible);
-            $(By.xpath("//button//span[text()='" + text + "'] | //button//div[text()='" + text + "']")).click();
+            $(By.xpath("//button//*[text()='" + text + "']")).should(Condition.visible);
+            $(By.xpath("//button//*[text()='" + text + "']")).click();
             LoggNotError("Произошел клик на кнопку '" + text + "'");
         } catch (Error e) {
             Logg("Не произошел клик на кнопку '" + text + "'");
