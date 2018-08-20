@@ -134,7 +134,7 @@ public class StreetFiltrePage {
         WebElement nameInput1 = $(By.xpath("//div[@class='line']/p[text()=' " + inputName + " ']/../div/textarea"));
 //        WebElement nameInput2 = $(By.xpath("//div[2]/div[10]/div/label[text()='" + name + "']/../*[@name]"));
 
-        sleep(1500);
+        sleep(1000);
             try {
                 actions().click(nameInput).perform();
             } catch (AssertionError err) {

@@ -6,6 +6,7 @@ import cucumber.api.java.en.When;
 import org.openqa.selenium.WebElement;
 import ru.ksodd.Helpers.ButtonsUtil;
 import ru.ksodd.Helpers.TestHelper;
+import ru.ksodd.Helpers.dbData;
 import ru.ksodd.Pages.MVKPage;
 import ru.ksodd.Pages.PackagePage;
 import ru.ksodd.Pages.RequestPage;
@@ -20,11 +21,11 @@ import static ru.ksodd.Helpers.TestHelper.errorCrarh;
 public class TestProjectMVKPage {
 
     @When("^войти в Проекты МВК$")
-
-    public static void testPackegeDrop() throws AWTException, IOException {
+    public static void testPackegeDrop() throws AWTException, IOException, InterruptedException {
         // проверяю, перетаскивание из запроса в пакет
+        dbData.db();
         sleep(2000);
-        PackagePage.mvkProject();
+        TestHelper.clickIcon("Перейти к MVK");
     }
 
     @When("^заполнят поле Организация$")
@@ -43,6 +44,11 @@ public class TestProjectMVKPage {
     @When("^Клик на кнопку \"(.*)\"$")
     public static void clickButtonCreateMvk(String NameButton) throws IOException, InterruptedException {
         MVKPage.clickButton(NameButton);
+    }
+
+    @When("^Клик на кнопку 'Аварийный проект'$")
+    public static void clickButtonAvariy() throws IOException, InterruptedException {
+        MVKPage.clickButtonAvariy();
     }
 
 

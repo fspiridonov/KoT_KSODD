@@ -90,7 +90,7 @@ public class TestHelper {
         }
     }
 
-    public static void testTabEquality() throws InterruptedException{//пример get
+    public static void testTabEquality() throws InterruptedException {//пример get
         ElementsCollection topCollect = $$(By.xpath("//th[text()='name']/ancestor::table[@class='b-mAppTable b-mAppBookparkon.fuel_types']//div[contains(@class, 'dataField')]"));
         ElementsCollection bottomCollect = $$(By.xpath("//th[text()='name']/ancestor::table[@class='b-mAppTable ']//div[contains(@class, 'dataField')]"));
         for (int i = 0; i < topCollect.size(); i++) {
@@ -151,18 +151,22 @@ public class TestHelper {
     public static void dragAndDrop(String idDrag, String idDrop) throws AWTException {
         Robot robot = new Robot();
 
-        WebElement x1 = $(By.xpath("//td[@data-bem='{\"c-kanban__column\":{\"kot_id\":\"" +idDrag + "\"}}']/div/div[@data-bem]/div[last()]/div[2]"));
-        WebElement x2 = $(By.xpath("//td[@data-bem='{\"c-kanban__column\":{\"kot_id\":\"" +idDrop + "\"}}']/div/div[@data-bem]/div[last()]/div[2]"));
+        WebElement x1 = $(By.xpath("//td[@data-bem='{\"c-kanban__column\":{\"kot_id\":\"" + idDrag + "\"}}']/div/div[@data-bem]/div[last()]/div[2]"));
+        WebElement x2 = $(By.xpath("//td[@data-bem='{\"c-kanban__column\":{\"kot_id\":\"" + idDrop + "\"}}']/div/div[@data-bem]/div[last()]/div[2]"));
 
         actions().click(x1).click(x2).perform();
         robot.setAutoDelay(1500);
-        try { $(By.xpath("//div[@class='b-block modal-dialog i-bem b-block_js_inited']//button[@aria-hidden='true']")).click();
-        } catch (Error e){}
+        try {
+            $(By.xpath("//div[@class='b-block modal-dialog i-bem b-block_js_inited']//button[@aria-hidden='true']")).click();
+        } catch (Error e) {
+        }
 
         $(By.xpath("//td[@data-bem='{\"c-kanban__column\":{\"kot_id\":\"" + idDrop + "\"}}']/div/div[@data-bem]/div[last()]/div[2]")).click();
         robot.setAutoDelay(1500);
-        try { $(By.xpath("//div[@class='b-block modal-dialog i-bem b-block_js_inited']//button[@aria-hidden='true']")).click();
-        } catch (Error e){}
+        try {
+            $(By.xpath("//div[@class='b-block modal-dialog i-bem b-block_js_inited']//button[@aria-hidden='true']")).click();
+        } catch (Error e) {
+        }
 
         Dimension fromSize = x1.getSize();
         Dimension toSize = x2.getSize();
@@ -170,7 +174,7 @@ public class TestHelper {
         int yCentreFrom = fromSize.height / 2;
         int xCentreTo = toSize.width / 2;
         int yCentreTo = toSize.height / 2;
-        Point fromLocation  = x1.getLocation();
+        Point fromLocation = x1.getLocation();
         Point toLocation = x2.getLocation();
         toLocation.x += xCentreTo;
         toLocation.y += yCentreTo;
@@ -179,8 +183,8 @@ public class TestHelper {
         robot.mouseMove(fromLocation.x, fromLocation.y);
         robot.mousePress(MouseEvent.BUTTON1_MASK);
         robot.setAutoDelay(1000);
-        robot.mouseMove(((toLocation.x - fromLocation.x)/2)+fromLocation.x,((toLocation.y - fromLocation.y)/2)+fromLocation.y);
-        robot.mouseMove(toLocation.x,toLocation.y);
+        robot.mouseMove(((toLocation.x - fromLocation.x) / 2) + fromLocation.x, ((toLocation.y - fromLocation.y) / 2) + fromLocation.y);
+        robot.mouseMove(toLocation.x, toLocation.y);
         robot.mouseRelease(MouseEvent.BUTTON1_MASK);
         robot.setAutoDelay(1000);
     }
@@ -188,18 +192,22 @@ public class TestHelper {
     public static void downDragAndDrop(String idDrag, String idDrop) throws AWTException {
         Robot robot = new Robot();
 
-        WebElement x1 = $(By.xpath("//td[@data-bem='{\"c-kanban__column\":{\"kot_id\":\"" +idDrag + "\"}}']/div/div[@data-bem]/div[last()]/div[2]"));
-        WebElement x2 = $(By.xpath("//td[@data-bem='{\"c-kanban__column\":{\"kot_id\":\"" +idDrop + "\"}}']/div/div[@data-bem]/div[last()]/div[2]"));
+        WebElement x1 = $(By.xpath("//td[@data-bem='{\"c-kanban__column\":{\"kot_id\":\"" + idDrag + "\"}}']/div/div[@data-bem]/div[last()]/div[2]"));
+        WebElement x2 = $(By.xpath("//td[@data-bem='{\"c-kanban__column\":{\"kot_id\":\"" + idDrop + "\"}}']/div/div[@data-bem]/div[last()]/div[2]"));
 
         actions().click(x1).click(x2).perform();
         robot.setAutoDelay(1500);
-        try { $(By.xpath("//div[@class='b-block modal-dialog i-bem b-block_js_inited']//button[@aria-hidden='true']")).click();
-        } catch (Error e){}
+        try {
+            $(By.xpath("//div[@class='b-block modal-dialog i-bem b-block_js_inited']//button[@aria-hidden='true']")).click();
+        } catch (Error e) {
+        }
 
         $(By.xpath("//td[@data-bem='{\"c-kanban__column\":{\"kot_id\":\"" + idDrop + "\"}}']/div/div[@data-bem]/div[last()]/div[2]")).click();
         robot.setAutoDelay(1500);
-        try { $(By.xpath("//div[@class='b-block modal-dialog i-bem b-block_js_inited']//button[@aria-hidden='true']")).click();
-        } catch (Error e){}
+        try {
+            $(By.xpath("//div[@class='b-block modal-dialog i-bem b-block_js_inited']//button[@aria-hidden='true']")).click();
+        } catch (Error e) {
+        }
 
         Dimension fromSize = x1.getSize();
         Dimension toSize = x2.getSize();
@@ -207,7 +215,7 @@ public class TestHelper {
         int yCentreFrom = fromSize.height / 2;
         int xCentreTo = toSize.width / 2;
         int yCentreTo = toSize.height / 2;
-        Point fromLocation  = x1.getLocation();
+        Point fromLocation = x1.getLocation();
         Point toLocation = x2.getLocation();
         toLocation.x += xCentreTo;
         toLocation.y += yCentreTo;
@@ -216,8 +224,8 @@ public class TestHelper {
         robot.mouseMove(fromLocation.x, fromLocation.y);
         robot.mousePress(MouseEvent.BUTTON1_MASK);
         robot.setAutoDelay(1000);
-        robot.mouseMove(((toLocation.x - fromLocation.x)/2)+fromLocation.x,((toLocation.y - fromLocation.y)/2)+fromLocation.y);
-        robot.mouseMove(toLocation.x,toLocation.y);
+        robot.mouseMove(((toLocation.x - fromLocation.x) / 2) + fromLocation.x, ((toLocation.y - fromLocation.y) / 2) + fromLocation.y);
+        robot.mouseMove(toLocation.x, toLocation.y);
         robot.mouseRelease(MouseEvent.BUTTON1_MASK);
         robot.setAutoDelay(1000);
     }
@@ -345,7 +353,7 @@ public class TestHelper {
         sleep(1500);
         Random random = new Random();
         int num = random.nextInt(99);
-        String randomDoc = txt+num;
+        String randomDoc = txt + num;
         try {
 
 
@@ -360,5 +368,15 @@ public class TestHelper {
         }
     }
 
+    public static void clickIcon(String text) throws IOException, InterruptedException {
+        WebElement xpath = $(By.xpath("//div/a[@title='" + text + "']"));
+        sleep(3000);
+        try {
+            actions().click(xpath).perform();
+            LoggNotError("вошёл в форму создания документа "+text+"");
+        } catch (AssertionError err) {
+            LoggerConsole.Logg("не вошёл в форму создания документа "+text+"");
+        }
+    }
 }
 

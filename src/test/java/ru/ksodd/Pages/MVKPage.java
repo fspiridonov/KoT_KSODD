@@ -7,16 +7,20 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import ru.ksodd.Helpers.LoggerConsole;
 import ru.ksodd.Helpers.TestHelper;
+import ru.ksodd.Helpers.dbData;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 import static com.codeborne.selenide.Selenide.*;
-import static java.lang.Thread.sleep;
 import static ru.ksodd.Helpers.LoggerConsole.Logg;
 import static ru.ksodd.Helpers.LoggerConsole.LoggNotError;
-import static ru.ksodd.Helpers.StorageString.stringNumberDoc.numberDoc;
+import static ru.ksodd.Helpers.dbData.localNumber;
+
+//import static ru.ksodd.Helpers.StorageString.localNumberDoc.localNumber;
+//import static ru.ksodd.Helpers.dbData.host;
+//import static ru.ksodd.Helpers.dbData.inputDB;
 
 
 public class MVKPage {
@@ -25,8 +29,7 @@ public class MVKPage {
             "Проект DGN", "Изменения PDF", "Выписка протокола МВК", "Акт проведения авторского надзора"};
     public static List<String> nameFile1 = new ArrayList<>();
     public static String[] yyy = {};
-    public static List<String> nameCheck = new ArrayList<String>();
-    public static String[] zzz = {};
+
 
 
     public static void testNameLoadingFile() throws IOException, InterruptedException {
@@ -48,8 +51,10 @@ public class MVKPage {
     }
 
 
-    public static void clickButton(String id) throws IOException, InterruptedException {
+
+   public static void clickButton(String id) throws IOException, InterruptedException {
         WebElement but = $(By.xpath("//div[@class='kanban-column']['" + id + "']/div[3]/button/div"));
+        WebElement but1 = $(By.xpath("//div[@class='kanban-board kanban-board_column_x4']/div[3]//button/div[@class='btn__content']"));
         try {
             sleep(2000);
             actions().click(but).perform();
@@ -59,12 +64,26 @@ public class MVKPage {
         }
     }
 
+    public static void clickButtonAvariy() throws IOException, InterruptedException {
+        WebElement but1 = $(By.xpath("//div[@class='kanban-board kanban-board_column_x4']/div[3]//button/div[@class='btn__content']"));
+        try {
+            sleep(2000);
+            actions().click(but1).perform();
+            LoggNotError("Произошел клик на кнопку");
+        } catch (Error e) {
+            Logg("Не произошел клик на кнопку");
+        }
+
+
+
+    }
+
     public static void clickButtonAndField(String txt, String txt1) throws IOException {
 //        String timeNameVar = String.valueOf(System.currentTimeMillis());
-        numberDoc = String.valueOf(System.currentTimeMillis());
+        dbData.inputDB("NumberDocument");
         WebElement but = $(By.xpath("//div/*[@aria-label='" + txt1 + "']"));
         try {
-            actions().click(but).sendKeys(numberDoc).perform();
+            actions().click(but).sendKeys(localNumber).perform();
 //            numberDoc = but.getText();
             LoggNotError("Произошел клик на поле " + txt1 + " и ввод значении в поле");
         } catch (Error e) {
@@ -100,21 +119,11 @@ public class MVKPage {
         }
     }
 
-    public static void testStorage() throws InterruptedException {
-        sleep(3000);
-        $(By.xpath("//div[contains(text(),'" + numberDoc + "')]/../../div[3]/div/div[text()]")).isEnabled();
-        String xpath = "//div[contains(text(),'" + numberDoc + "')]/../../div[3]/div/div[text()]";
-        ElementsCollection collect = $$(By.xpath(xpath));
-
-        for (SelenideElement aCollection : collect) {
-            String ch = aCollection.getText();
-            nameCheck.add(ch);
-        }
-    }
 
     public static void clickCheck(String txt) throws IOException, InterruptedException {
         sleep(4000);
-        WebElement xpath = $(By.xpath("//div[text()[contains(.,'" + numberDoc + "')]]/../../div[3]/div/div/div[text()='" + txt + "']"));
+        dbData.inputDB("NumberDocument");
+        WebElement xpath = $(By.xpath("//div[text()[contains(.,'" + localNumber + "')]]/../../div[3]/div/div/div[text()='" + txt + "']"));
         actions().click(xpath).perform();
 
     }
@@ -140,8 +149,9 @@ public class MVKPage {
         actions().click(xpath).pause(1000).sendKeys(Keys.TAB).pause(1000).sendKeys(Keys.ENTER).perform();
     }
 
-    public static void DnD(int colomn1, int colomn2) throws InterruptedException {
-        WebElement drag = $(By.xpath("//div[@data-index='"+colomn1+"']/div/div/div/div[2]/div[text()[contains(.,'"+numberDoc+"')]]"));
+    public static void DnD(int colomn1, int colomn2) throws InterruptedException, IOException {
+        dbData.inputDB("NumberDocument");
+        WebElement drag = $(By.xpath("//div[@data-index='"+colomn1+"']/div/div/div/div[2]/div[text()[contains(.,'"+localNumber+"')]]"));
         WebElement drop = $(By.xpath("//div[@data-index='"+colomn2+"']/div"));
         actions().dragAndDrop(drag,drop).perform();
         sleep(1500);

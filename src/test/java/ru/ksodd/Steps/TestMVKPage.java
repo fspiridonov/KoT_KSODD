@@ -1,6 +1,7 @@
 package ru.ksodd.Steps;
 
 import cucumber.api.java.en.When;
+import ru.ksodd.Helpers.dbData;
 import ru.ksodd.Pages.MVKPage;
 
 import java.awt.*;
@@ -12,6 +13,7 @@ public class TestMVKPage {
 
     @When("^Заполнение значении \"(.*)\" в поле \"(.*)\"$")
     public static void inputField(String txt1, String txt) throws IOException {
+//        dbData.inputDB();
         MVKPage.clickButtonAndField(txt1, txt);
     }
 
@@ -33,6 +35,7 @@ public class TestMVKPage {
 
     @When("^Ввод значении \"(.*)\" в поле \"(.*)\" в внутри формы задач$")
     public static void inputComment(String txt, String txt1) throws InterruptedException {
+        sleep(1500);
         MVKPage.inputField(txt, txt1);
     }
 
@@ -42,13 +45,14 @@ public class TestMVKPage {
 //    }
 
     @When("^Перенос карточки c этапа \"(.*)\" на этап \"(.*)\"$")
-    public static void transferCardZakupki(int drag, int drop) throws AWTException, InterruptedException {
+    public static void transferCardZakupki(int drag, int drop) throws AWTException, InterruptedException, IOException {
         sleep(4000);
         MVKPage.DnD(drag, drop);
     }
 
     @When("^Клик на кнопку 'Согласовано' на форме$")
-    public static void clickSave(){
+    public static void clickSave() throws InterruptedException {
+        sleep(1500);
         MVKPage.clickSave();
     }
 

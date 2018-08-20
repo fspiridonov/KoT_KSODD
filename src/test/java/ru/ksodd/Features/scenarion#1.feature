@@ -7,7 +7,7 @@ Feature: scenario#1
     When вводим пароль "123456"
     When клик на кнопку 'Войти'
 
-  Scenario: create new requests based on initiative
+  Scenario: Создание новой инициативы
     When Клик на кнопку 'Новая инициатива'
     When Выбирает улицу
     When Выбирает 'Тип' 'Важная'

@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 import ru.ksodd.Helpers.ButtonsUtil;
 import ru.ksodd.Helpers.LoggerConsole;
 import ru.ksodd.Helpers.TestHelper;
+import ru.ksodd.Helpers.dbData;
 
 import java.awt.*;
 import java.awt.event.MouseEvent;
@@ -27,6 +28,7 @@ import static ru.ksodd.Helpers.LoggerConsole.Logg;
 import static ru.ksodd.Helpers.LoggerConsole.LoggNotError;
 import static ru.ksodd.Helpers.StorageString.contentOfWorks.cWork;
 import static ru.ksodd.Helpers.TestHelper.errorCrarh;
+import static ru.ksodd.Helpers.dbData.localNumber;
 
 
 public class PackagePage {
@@ -710,8 +712,9 @@ public static void mvkProject () throws IOException {
 public static void mvkProjectFeelOrg () throws IOException {
     WebElement xpath = $(By.xpath("//input[@class='b-input-field__string b-input']"));
     sleep(3000);
+    dbData.inputDB("NumberDocument");
     try {
-        actions().click(xpath).sendKeys(PackagePage.timeNameVar).perform();
+        actions().click(xpath).sendKeys(localNumber).perform();
         LoggNotError("Заполнил поле Организация");
     } catch (AssertionError err) {
         LoggerConsole.Logg("не заполнил поле Организация");

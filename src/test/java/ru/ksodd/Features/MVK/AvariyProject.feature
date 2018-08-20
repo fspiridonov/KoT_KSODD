@@ -1,11 +1,18 @@
 @scenario5#AvariyProject
 
-Feature: scenario#1
+Feature: scenario#999
 
-  Scenario: CreateMVK
+  Scenario: Авторизация
+    When вводим логин "test2"
+    When вводим пароль "123456"
+    When клик на кнопку 'Войти'
 
-#      When клик на MVK
-    When Клик на кнопку "2"
+  Scenario: 111
+
+    When войти в Проекты МВК
+    When Клик на кнопку 'Аварийный проект'
+
+
     When ввод улицы в поле Улицы
 #      When Заполнения  значении "" в поле ""
     When Заполнение значении "" в поле "Содержание работ"

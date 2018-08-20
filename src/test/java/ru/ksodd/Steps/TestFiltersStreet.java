@@ -77,7 +77,7 @@ public class TestFiltersStreet {
     }
 
 
-    @When("^клик на кнопку 'Создать '$")
+    @When("^клик на кнопку 'Создать'$")
     public static void clickNew() throws IOException {
         StreetFiltrePage.clickAdd("Создать");
     }

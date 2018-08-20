@@ -27,9 +27,10 @@ import static com.codeborne.selenide.Selenide.open;
 @CucumberOptions(
         features = {"src/test/java/ru/ksodd/Features"},
         glue = "ru/ksodd/Steps",
-//        tags = {""},
-        tags = {"@scenario1#CreateMVK, @scenario2#mvk2, @scenario3#mvk3, @scenario4#mvk4"},
+//        tags = {"@scena1#Test1, @scena2#TZ2"}, //тз
+//        tags = {"@scenario1#CreateMVK, @scenario2#mvk2, @scenario3#mvk3, @scenario4#mvk4"}, //МВК
 //        tags = {"@scenario#formStreet"},
+        tags = {"@scenario#1, @scenario#2, @scenario#3, @scenario#4 "},
         format = {"json:target/cucumber.json", "html:target/site/cucumber-pretty"},
         plugin = {"pretty:target/txt.txt"},
         strict = true
@@ -43,10 +44,12 @@ public class Runner {
         Configuration.timeout = 10000;
         Configuration.startMaximized = true;
         System.setProperty("webdriver.chrome.driver", "src\\test\\repository\\webDriver\\chromedriver.exe");
+//        Configuration.headless = true;
         Configuration.browser = "chrome";
         Configuration.savePageSource = false;
 
-//        Если нужно оставлять броузер открытым по окончании теста, по умолчанию значение false
+
+//        Если нужно оставлять браузер открытым по окончании теста, по умолчанию значение false
 //        Configuration.holdBrowserOpen = true;
 
         open("http://172.20.0.78:8181/");
