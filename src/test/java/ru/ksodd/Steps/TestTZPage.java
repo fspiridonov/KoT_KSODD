@@ -23,7 +23,12 @@ public class TestTZPage {
 
     @When("^Выбор типа в поле Тип$")
     public static void unputField() throws IOException, InterruptedException {
-        TZPage.inputFieldType1("ТЗ");
+        TZPage.inputFieldType1("ТЗ ");
+    }
+
+    @When("^Загрузка файла в форму$")
+    public static void loadFile() throws IOException {
+        TZPage.loadFile("dgn.txt");
     }
 
     @When("^Ввод значении \"(.*)\" в поле \"(.*)\" в внутри формы задач1$")
@@ -40,6 +45,11 @@ public class TestTZPage {
     @When("^ввод улицы в поле Улицы1$")
     public static void inputStreet() throws IOException {
         TZPage.inputStreet("1-й Белокаменный проезд");
+    }
+
+    @When("^Проверка создания карточки ТЗ$")
+    public static void testAddCardTZ() throws IOException {
+        TZPage.testAddCardTZ();
     }
 
 }

@@ -60,4 +60,9 @@ public class TestMVKPage {
     public static void clickSave1(){
         MVKPage.clickSaveNext();
     }
+
+    @When("^Проверка создания карточки МВК$")
+    public static void testAddCard() throws IOException {
+        MVKPage.testAddCard();
+    }
 }

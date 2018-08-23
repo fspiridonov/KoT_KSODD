@@ -33,5 +33,13 @@ public class StorageString {
         }
     }
 
+    public static class localNumberDoc {
+        public static String localNumber;
+
+        public static void setLocalNumberDoc(String localNumber) {
+            localNumberDoc.localNumber = localNumber;
+        }
+    }
+
 
 }

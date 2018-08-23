@@ -1,5 +1,6 @@
 package ru.ksodd.Pages;
 
+import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
@@ -31,7 +32,6 @@ public class MVKPage {
     public static String[] yyy = {};
 
 
-
     public static void testNameLoadingFile() throws IOException, InterruptedException {
         ElementsCollection collection = $$(By.xpath("//div[@class='b-block i-bem b-block_js_inited']/label[text()]"));
         sleep(1500);
@@ -51,8 +51,7 @@ public class MVKPage {
     }
 
 
-
-   public static void clickButton(String id) throws IOException, InterruptedException {
+    public static void clickButton(String id) throws IOException, InterruptedException {
         WebElement but = $(By.xpath("//div[@class='kanban-column']['" + id + "']/div[3]/button/div"));
         WebElement but1 = $(By.xpath("//div[@class='kanban-board kanban-board_column_x4']/div[3]//button/div[@class='btn__content']"));
         try {
@@ -73,7 +72,6 @@ public class MVKPage {
         } catch (Error e) {
             Logg("Не произошел клик на кнопку");
         }
-
 
 
     }
@@ -121,7 +119,7 @@ public class MVKPage {
 
 
     public static void clickCheck(String txt) throws IOException, InterruptedException {
-        sleep(4000);
+        sleep(5000);
         dbData.inputDB("NumberDocument");
         WebElement xpath = $(By.xpath("//div[text()[contains(.,'" + localNumber + "')]]/../../div[3]/div/div/div[text()='" + txt + "']"));
         actions().click(xpath).perform();
@@ -129,8 +127,8 @@ public class MVKPage {
     }
 
     public static void inputField(String txt, String nameField) throws InterruptedException {
-        sleep(1500);
-        WebElement comment = $(By.xpath("//*[@aria-label='"+nameField+"']"));
+        sleep(2000);
+        WebElement comment = $(By.xpath("//*[@aria-label='" + nameField + "']"));
         actions().click(comment).sendKeys(txt).perform();
     }
 
@@ -139,22 +137,41 @@ public class MVKPage {
 //        actions().click(button).perform();
 //    }
 
-    public static void clickSave(){
-        WebElement xpath = $(By.xpath("//button/div[@class='btn__content']"));
-        actions().click(xpath).perform();
+    public static void clickSave() {
+        WebElement xpath = $(By.cssSelector("button.btn.success > div.btn__content"));
+        WebElement xpath1 = $(By.xpath("//footer/div/div/div/button[1]/div | //footer/div/div/div/button/div"));
+        try {
+            ((SelenideElement) xpath).should(Condition.visible);
+            actions().click(xpath).perform();
+        } catch (AssertionError e) {
+            actions().click(xpath1).perform();
+        }
     }
 
-    public static void clickSaveNext(){
+    public static void clickSaveNext() {
         WebElement xpath = $(By.xpath("//button/div[@class='btn__content']"));
-        actions().click(xpath).pause(1000).sendKeys(Keys.TAB).pause(1000).sendKeys(Keys.ENTER).perform();
+//        actions().click(xpath).pause(1000).sendKeys(Keys.TAB).pause(1000).sendKeys(Keys.ENTER).perform();
+        sleep(1500);
+        actions().click(xpath).pause(1000).sendKeys(Keys.ENTER).perform();
     }
 
     public static void DnD(int colomn1, int colomn2) throws InterruptedException, IOException {
         dbData.inputDB("NumberDocument");
-        WebElement drag = $(By.xpath("//div[@data-index='"+colomn1+"']/div/div/div/div[2]/div[text()[contains(.,'"+localNumber+"')]]"));
-        WebElement drop = $(By.xpath("//div[@data-index='"+colomn2+"']/div"));
-        actions().dragAndDrop(drag,drop).perform();
+        WebElement drag = $(By.xpath("//div[@data-index='" + colomn1 + "']/div/div/div/div[2]/div[text()[contains(.,'" + localNumber + "')]]"));
+        WebElement drop = $(By.xpath("//div[@data-index='" + colomn2 + "']/div"));
+        actions().dragAndDrop(drag, drop).perform();
         sleep(1500);
+    }
+
+    public static void testAddCard() throws IOException {
+        dbData.inputDB("NumberDocument");
+        try {
+            $(By.xpath("//div/div/div/div[2]/div[text()[contains(.,'" + localNumber + "')]]")).should(Condition.visible);
+            LoggerConsole.LoggNotError("Карточка " + localNumber + " создана");
+        } catch (AssertionError err) {
+            LoggerConsole.Logg("Карточка " + localNumber + " не создана");
+
+        }
     }
 
 }

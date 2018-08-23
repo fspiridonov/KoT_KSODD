@@ -28,7 +28,8 @@ import static ru.ksodd.Helpers.LoggerConsole.Logg;
 import static ru.ksodd.Helpers.LoggerConsole.LoggNotError;
 import static ru.ksodd.Helpers.StorageString.contentOfWorks.cWork;
 import static ru.ksodd.Helpers.StorageString.stringNumberDoc.numberDoc;
-
+import static ru.ksodd.Helpers.dbData.db;
+import static ru.ksodd.Helpers.dbData.localNumber;
 
 
 public class TestHelper {
@@ -347,20 +348,14 @@ public class TestHelper {
         }
     }
 
-    public static void fillname(String txt) throws IOException, InterruptedException {
+    public static void fillNameWork(String txt) throws IOException, InterruptedException {
 //Заполняет поле 'Наименование'
-        WebElement name = $(By.xpath("//textarea[@name='name']"));
-        sleep(1500);
-        Random random = new Random();
-        int num = random.nextInt(99);
-        String randomDoc = txt + num;
+        db();
+        WebElement name = $(By.xpath("//*/textarea[@name='working']"));
+
         try {
-
-
-            actions().click(name).sendKeys(randomDoc).perform();
-
-            numberDoc = randomDoc;
-            LoggerConsole.LoggNotError("Заполнение поля наименования");
+            actions().click(name).sendKeys("Инициатива № "+localNumber).perform();
+            LoggerConsole.LoggNotError("Заполнение поля Содержание работ");
 
 
         } catch (Error e) {

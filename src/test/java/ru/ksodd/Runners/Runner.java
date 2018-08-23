@@ -27,10 +27,10 @@ import static com.codeborne.selenide.Selenide.open;
 @CucumberOptions(
         features = {"src/test/java/ru/ksodd/Features"},
         glue = "ru/ksodd/Steps",
-//        tags = {"@scena1#Test1, @scena2#TZ2"}, //тз
+        tags = {"@scena1#Test1, @scena2#TZ2"}, //тз
 //        tags = {"@scenario1#CreateMVK, @scenario2#mvk2, @scenario3#mvk3, @scenario4#mvk4"}, //МВК
 //        tags = {"@scenario#formStreet"},
-        tags = {"@scenario#1, @scenario#2, @scenario#3, @scenario#4 "},
+//        tags = {"@scenario#1, @scenario#2, @scenario#3"},
         format = {"json:target/cucumber.json", "html:target/site/cucumber-pretty"},
         plugin = {"pretty:target/txt.txt"},
         strict = true

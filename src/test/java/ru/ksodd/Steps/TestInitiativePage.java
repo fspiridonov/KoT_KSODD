@@ -5,6 +5,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import ru.ksodd.Helpers.ButtonsUtil;
 import ru.ksodd.Helpers.TestHelper;
+import ru.ksodd.Helpers.dbData;
 import ru.ksodd.Pages.InitiativePage;
 import ru.ksodd.Pages.PackagePage;
 
@@ -39,11 +40,11 @@ public class TestInitiativePage {
         for (int i = 0; i < importance.length; i++) {
 
             sleep(1500);
-            InitiativePage.workDescriptionInit("Новая инициатива", str);
+//            InitiativePage.workDescriptionInit("Новая инициатива", str);
 
 //            TestHelper.testCloseWindowCreatInit("Новая инициатива");
 //            Проверяю данные
-            sleep(1500); //[После удаления инициатив]
+//            sleep(1500); //[После удаления инициатив]
             ButtonsUtil.clickSpanButton("Создать");
             switch (str) {
 //                Два массива для инициатив каждой из улицы чтобы после проверки инициатив, если что то пойдет не так, все равно был свободный массив
@@ -90,6 +91,12 @@ public class TestInitiativePage {
     @When("^Прикрепляем файл$")
     public static void LoadFileInit() {
         TestHelper.loadFile("Initiative.txt");
+    }
+
+    @When("^Ввод значении в поле 'Содержание работ'$")
+    public static void inputField() throws IOException, InterruptedException {
+        dbData.inputDB("NumberDocumentKanban");
+        TestHelper.fillNameWork("");
     }
 
 
